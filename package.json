@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "a monrepo built with ts",
   "scripts": {
-    "test": "echo \"Hello World 💥\" && exit 1",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "main:lint": "lerna run lint"
   },
   "repository": {
     "type": "git"
