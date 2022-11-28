@@ -4,7 +4,9 @@
   "description": "a monrepo built with ts",
   "scripts": {
     "prepare": "husky install",
-    "main:lint": "lerna run lint"
+    "main:lint": "lerna run lint",
+    "main:build": "lerna run build",
+    "main:start": "lerna run start"
   },
   "repository": {
     "type": "git"
